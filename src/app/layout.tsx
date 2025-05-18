@@ -1,14 +1,13 @@
+import { MobileNav } from "@/components/hooks/mobile-nav";
+import { Footer } from "@/components/share/Footer";
+import { Navbar } from "@/components/share/Navbar";
+import { ThemeProvider } from "@/components/share/Them-provider";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const poppin = Poppins({
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -24,11 +23,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <ThemeProvider defaultTheme="light">
+        <body className={poppin.className}>
+          <div className="flex flex-col min-h-screen">
+            <Navbar />
+            <main className="flex-grow pt-16">{children}</main>
+            <Footer />
+            <MobileNav />
+          </div>
+        </body>
+      </ThemeProvider>
     </html>
   );
 }
