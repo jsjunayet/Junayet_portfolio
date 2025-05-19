@@ -15,7 +15,7 @@ interface Project {
 }
 
 interface ProjectsSectionProps {
-  forwardedRef: React.RefObject<HTMLDivElement>;
+  forwardedRef: React.RefObject<HTMLDivElement | null>;
   isIntersecting: boolean;
 }
 

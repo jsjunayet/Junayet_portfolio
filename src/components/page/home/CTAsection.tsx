@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 interface CTASectionProps {
-  forwardedRef: React.RefObject<HTMLDivElement>;
+  forwardedRef: React.RefObject<HTMLDivElement | null>;
   isIntersecting: boolean;
 }
 

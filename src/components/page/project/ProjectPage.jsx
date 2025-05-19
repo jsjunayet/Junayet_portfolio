@@ -2,12 +2,11 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Code, ExternalLink, Github, Search } from "lucide-react";
-import Link from "next/link";
 import { useState } from "react";
 
 const ProjectPage = () => {
   const [filter, setFilter] = useState("");
-  const [activeCategory, setActiveCategory] = useState < string > "all";
+  const [activeCategory, setActiveCategory] = useState("all");
 
   // Project data
   const projectsData = [
@@ -117,7 +116,7 @@ const ProjectPage = () => {
     <>
       {/* Hero Section */}
       <section className="bg-secondary py-16 md:py-24">
-        <div className="section-container text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
             My Projects
           </h1>
@@ -131,7 +130,7 @@ const ProjectPage = () => {
 
       {/* Filter Controls */}
       <section className=" border-b sticky top-16 z-30 py-4 backdrop-blur-sm bg-background/90">
-        <div className="section-container py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8   py-4">
           <div className="flex flex-col sm:flex-row gap-4 justify-between items-center">
             {/* Category Filters */}
             <div className="flex gap-2">
@@ -168,7 +167,7 @@ const ProjectPage = () => {
       </section>
 
       {/* Projects Grid */}
-      <section className="section-container">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         {filteredProjects.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProjects.map((project) => (
@@ -254,7 +253,7 @@ const ProjectPage = () => {
 
       {/* CTA Section */}
       <section className="bg-primary/5 py-16">
-        <div className="section-container text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-6">
             Need a custom project?
           </h2>
@@ -263,7 +262,7 @@ const ProjectPage = () => {
             something amazing together.
           </p>
           <Button asChild size="lg">
-            <Link href="/contact">Get In Touch</likn>
+            <a href="/contact">Get In Touch</a>
           </Button>
         </div>
       </section>

@@ -58,13 +58,13 @@ const AboutPage = () => {
                 About Me
               </h1>
               <p className="text-lg mb-4">
-                I'm <strong>Asif Ahmed</strong>, a passionate Frontend Developer
-                and UI/UX Designer from Dhaka, Bangladesh with over 5 years of
-                industry experience.
+                I&apos;m <strong>Asif Ahmed</strong>, a passionate Frontend
+                Developer and UI/UX Designer from Dhaka, Bangladesh with over 5
+                years of industry experience.
               </p>
               <p className="text-muted-foreground mb-8">
                 My journey in web development started in 2017, and since then,
-                I've been creating engaging digital experiences for clients
+                I&apos;ve been creating engaging digital experiences for clients
                 across various industries.
               </p>
               <Button asChild variant="outline">
@@ -122,7 +122,7 @@ const AboutPage = () => {
 
       {/* Experience Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-10 inline-block relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-[#00C951]">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-10 inline-block relative after:content-['] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-[#00C951]">
           Work Experience
         </h2>
         <div className="space-y-8 relative before:absolute before:inset-0 before:left-4 md:before:left-1/2 before:w-0.5 before:-translate-x-1/2 before:h-full before:bg-border">
@@ -172,7 +172,7 @@ const AboutPage = () => {
 
       {/* Education Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 bg-secondary">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-10 inline-block relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-[#00C951]">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-10 inline-block relative after:content-['] after:absolute after:left-0 after:bottom-0 after:h-1 after:w-12 after:bg-[#00C951]">
           Education
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -208,7 +208,7 @@ const AboutPage = () => {
             Want to work together?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-            I'm always open to discussing new projects, creative ideas, or
+            I&apos;m always open to discussing new projects, creative ideas, or
             opportunities to be part of your vision.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

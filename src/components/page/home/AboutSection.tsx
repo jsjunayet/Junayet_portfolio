@@ -10,7 +10,7 @@ interface Skill {
 }
 
 interface AboutSectionProps {
-  forwardedRef: React.RefObject<HTMLDivElement>;
+  forwardedRef: React.RefObject<HTMLDivElement | null>;
   isIntersecting: boolean;
 }
 
