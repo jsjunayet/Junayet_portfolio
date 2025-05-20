@@ -28,11 +28,10 @@ export function AboutSection({
         "CSS3",
         "JavaScript",
         "React",
-        "Vue.js",
         "TypeScript",
         "Next.js",
         "Tailwind CSS",
-        "SASS",
+        "Shadcn UI",
       ],
     },
     {
@@ -44,7 +43,6 @@ export function AboutSection({
         "PostgreSQL",
         "Firebase",
         "RESTful APIs",
-        "GraphQL",
       ],
     },
     {
@@ -54,9 +52,7 @@ export function AboutSection({
         "GitHub",
         "VS Code",
         "Figma",
-        "Adobe XD",
         "Responsive Design",
-        "UI/UX",
         "Performance Optimization",
       ],
     },
@@ -78,19 +74,18 @@ export function AboutSection({
             About Me
           </h2>
           <p className="mb-4">
-            I&apos;m a passionate Frontend Developer from Dhaka, Bangladesh with
-            5+ years of experience in building responsive and user-friendly web
-            applications.
+            I&apos;m a passionate Full Stack Web Developer with a background in
+            Computer Science and Engineering. I recently completed a 4-month
+            remote paid internship at CloudGen, where I worked on real-world
+            projects using React.js, Next.js, Node.js, and MongoDB.
           </p>
-          <p className="mb-4">
-            My expertise lies in creating clean, efficient code using modern
-            frameworks and libraries, with a keen eye for design and user
-            experience.
-          </p>
+
           <p className="mb-6">
-            I&apos;m constantly learning and staying up-to-date with the latest
-            technologies and best practices in web development to deliver
-            high-quality solutions.
+            I&apos;ve contributed to multiple remote team projects, gaining
+            strong collaboration skills. I enjoy solving problems and writing
+            clean, scalable code. My tech stack includes TypeScript, Redux,
+            PostgreSQL, and Prisma. So far, I’ve built 5+ full-stack
+            applications with a focus on performance and user experience.
           </p>
           <Button asChild>
             <Link href="/about">

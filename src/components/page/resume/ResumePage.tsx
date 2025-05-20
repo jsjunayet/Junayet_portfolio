@@ -28,9 +28,9 @@ const ResumePage = () => {
         <div className="max-w-4xl mx-auto bg-card border rounded-xl p-8 shadow-sm">
           {/* Personal Info */}
           <div className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">Asif Ahmed</h2>
+            <h2 className="text-3xl font-bold mb-4">Junayet Shiblu</h2>
             <p className="text-xl text-muted-foreground mb-4">
-              Frontend Developer & UI/UX Designer
+              Full Stack Web Developer
             </p>
             <div className="border-t border-border pt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
@@ -40,8 +40,8 @@ const ResumePage = () => {
                 </p>
               </div>
               <div className="text-right">
-                <p className="font-medium">asif@example.com</p>
-                <p className="text-muted-foreground">+880 1712 345678</p>
+                <p className="font-medium">junayetshiblu0@gmail.com</p>
+                <p className="text-muted-foreground">+880 1640 011818</p>
               </div>
             </div>
           </div>
@@ -52,13 +52,13 @@ const ResumePage = () => {
               Professional Summary
             </h3>
             <p className="text-muted-foreground">
-              Frontend Developer and UI/UX Designer with 5+ years of experience
-              building responsive, user-friendly web applications. Proficient in
-              modern JavaScript frameworks including React and Vue.js, with a
-              strong understanding of UI/UX principles and performance
-              optimization techniques. Experienced in both team environments and
-              self-directed projects, with a track record of delivering
-              high-quality solutions that meet client requirements.
+              With 1+ years of experience crafting responsive, user-centric web
+              applications and scalable end-to-end solutions. Proficient in
+              modern JavaScript frameworks like React, paired with backend
+              expertise in Node.js, Express, and databases (PostgreSQL,
+              MongoDB). Skilled in translating UI/UX principles into performant,
+              visually appealing interfaces while optimizing application speed
+              and scalability.
             </p>
           </div>
 
@@ -71,12 +71,14 @@ const ResumePage = () => {
               {/* Job 1 */}
               <div className="border-l-2 border-primary pl-6 relative">
                 <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] top-1"></div>
-                <h4 className="text-lg font-bold">Senior Frontend Developer</h4>
-                <div className="flex justify-between items-center mb-2">
-                  <p className="text-primary font-medium">TechBD Solutions</p>
+                <h4 className="text-lg font-bold"> Frontend Developer</h4>
+                <div className="md:flex justify-between items-center mb-2">
+                  <p className="text-primary font-medium mb-1 md:mb-0">
+                    Clooud Gen
+                  </p>
                   <div className="flex items-center text-sm text-muted-foreground">
                     <Calendar size={14} className="mr-1" />
-                    <span>2022 - Present</span>
+                    <span>Aug 2024 - Dec 2024</span>
                   </div>
                 </div>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -97,73 +99,6 @@ const ResumePage = () => {
                   </li>
                 </ul>
               </div>
-
-              {/* Job 2 */}
-              <div className="border-l-2 border-primary pl-6 relative">
-                <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] top-1"></div>
-                <h4 className="text-lg font-bold">Frontend Developer</h4>
-                <div className="flex justify-between items-center mb-2">
-                  <p className="text-primary font-medium">
-                    Dhaka Innovation Hub
-                  </p>
-                  <div className="flex items-center text-sm text-muted-foreground">
-                    <Calendar size={14} className="mr-1" />
-                    <span>2019 - 2022</span>
-                  </div>
-                </div>
-                <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                  <li>
-                    Developed and maintained multiple client websites and web
-                    applications
-                  </li>
-                  <li>
-                    Focused on responsive design and cross-browser compatibility
-                  </li>
-                  <li>Participated in daily standups and sprint planning</li>
-                  <li>Implemented CI/CD pipelines for frontend projects</li>
-                  <li>
-                    Technologies used: React, Vue.js, JavaScript, Tailwind CSS,
-                    SASS
-                  </li>
-                </ul>
-              </div>
-
-              {/* Job 3 */}
-              <div className="border-l-2 border-primary pl-6 relative">
-                <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] top-1"></div>
-                <h4 className="text-lg font-bold">
-                  UI/UX Designer & Developer
-                </h4>
-                <div className="flex justify-between items-center mb-2">
-                  <p className="text-primary font-medium">
-                    CreativeMinds Agency
-                  </p>
-                  <div className="flex items-center text-sm text-muted-foreground">
-                    <Calendar size={14} className="mr-1" />
-                    <span>2017 - 2019</span>
-                  </div>
-                </div>
-                <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                  <li>
-                    Designed user interfaces and implemented frontend solutions
-                  </li>
-                  <li>
-                    Collaborated with multidisciplinary teams to deliver
-                    high-quality web products
-                  </li>
-                  <li>
-                    Created wireframes and prototypes using Figma and Adobe XD
-                  </li>
-                  <li>
-                    Conducted user testing and incorporated feedback into design
-                    iterations
-                  </li>
-                  <li>
-                    Technologies used: HTML5, CSS3, JavaScript, jQuery,
-                    Bootstrap
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
 
@@ -179,40 +114,36 @@ const ResumePage = () => {
                 <h4 className="text-lg font-bold">
                   Bachelor of Science in Computer Science
                 </h4>
-                <div className="flex justify-between items-center mb-2">
-                  <p className="text-primary font-medium">
+                <div className="md:flex justify-between items-center mb-2">
+                  <p className="text-primary font-medium mb-1 md:mb-0">
                     University of Dhaka
                   </p>
                   <div className="flex items-center text-sm text-muted-foreground">
                     <Calendar size={14} className="mr-1" />
-                    <span>2014 - 2018</span>
+                    <span>2022 - Present</span>
                   </div>
                 </div>
                 <p className="text-muted-foreground">
-                  Focused on web technologies, software engineering, and UI/UX
-                  design principles. Participated in multiple hackathons and
-                  coding competitions.
+                  Focused on web technologies, software engineering, and Full
+                  Stack Web Development with AI principles. Participated in
+                  multiple hackathons and coding competitions.
                 </p>
               </div>
 
-              {/* Education 2 */}
               <div className="border-l-2 border-primary pl-6 relative">
                 <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] top-1"></div>
-                <h4 className="text-lg font-bold">
-                  Web Development Certification
-                </h4>
+                <h4 className="text-lg font-bold">Next Level Web Developer</h4>
                 <div className="flex justify-between items-center mb-2">
-                  <p className="text-primary font-medium">
-                    Bangladesh IT Institute
-                  </p>
+                  <p className="text-primary font-medium">Programming Hero</p>
                   <div className="flex items-center text-sm text-muted-foreground">
                     <Calendar size={14} className="mr-1" />
-                    <span>2016</span>
+                    <span>2024</span>
                   </div>
                 </div>
                 <p className="text-muted-foreground">
-                  Intensive program covering modern web development practices,
-                  responsive design, and JavaScript frameworks.
+                  Trained in modern web development practices, responsive
+                  design, JavaScript frameworks (React, Nextjs), and backend
+                  technologies (Node.js, Express, SQL/NoSQL databases).
                 </p>
               </div>
             </div>
@@ -229,12 +160,12 @@ const ResumePage = () => {
                 <h4 className="text-lg font-medium mb-3">Technical Skills</h4>
                 <ul className="list-disc list-inside text-muted-foreground space-y-1">
                   <li>HTML5, CSS3, JavaScript/TypeScript</li>
-                  <li>React, Next.js, Vue.js</li>
-                  <li>Tailwind CSS, SASS/SCSS, Bootstrap</li>
+                  <li>React, Next.js,</li>
+                  <li>Tailwind CSS, Bootstrap</li>
                   <li>Node.js, Express.js</li>
                   <li>MongoDB, Firebase</li>
-                  <li>RESTful APIs, GraphQL</li>
-                  <li>Git, GitHub, GitLab</li>
+                  <li>RESTful APIs,</li>
+                  <li>Git, GitHub</li>
                   <li>Responsive Web Design</li>
                 </ul>
               </div>
@@ -246,7 +177,7 @@ const ResumePage = () => {
                 </h4>
                 <ul className="list-disc list-inside text-muted-foreground space-y-1">
                   <li>UI/UX Design</li>
-                  <li>Figma, Adobe XD</li>
+                  <li>Figma</li>
                   <li>Wireframing & Prototyping</li>
                   <li>Performance Optimization</li>
                   <li>Cross-Browser Testing</li>

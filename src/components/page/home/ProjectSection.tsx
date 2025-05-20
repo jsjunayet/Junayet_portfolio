@@ -117,7 +117,7 @@ export function ProjectsSection({
                   ))}
                 </div>
                 <div className="flex gap-3">
-                  <Button asChild size="sm" variant="outline">
+                  <Button asChild size="sm">
                     <Link href={project.link}>
                       <ExternalLink size={14} className="mr-1" /> View Project
                     </Link>

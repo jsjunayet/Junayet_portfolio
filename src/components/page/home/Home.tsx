@@ -2,6 +2,7 @@
 
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 import { AboutSection } from "./AboutSection";
+import BlogPost from "./BlogPost";
 import { CTASection } from "./CTAsection";
 import { HeroSection } from "./HeroSection";
 import { ProjectsSection } from "./ProjectSection";
@@ -33,6 +34,7 @@ const HomePage = () => {
         forwardedRef={ctaSection.ref}
         isIntersecting={ctaSection.isIntersecting}
       />
+      <BlogPost />
     </>
   );
 };

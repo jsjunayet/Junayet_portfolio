@@ -23,19 +23,7 @@ const ProjectPage = () => {
       github: "https://github.com/asifdev/ecommerce",
       featured: true,
     },
-    {
-      id: 2,
-      title: "Portfolio CMS",
-      description:
-        "A content management system for designers and developers to showcase their work easily.",
-      image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=600&h=400",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Sanity.io"],
-      category: "frontend",
-      link: "https://portfolio-cms.asifdev.com",
-      github: "https://github.com/asifdev/portfolio-cms",
-      featured: true,
-    },
+
     {
       id: 3,
       title: "Task Management App",
@@ -49,32 +37,7 @@ const ProjectPage = () => {
       github: "https://github.com/asifdev/task-manager",
       featured: true,
     },
-    {
-      id: 4,
-      title: "Weather Dashboard",
-      description:
-        "Real-time weather forecasting application with location-based data and interactive maps.",
-      image:
-        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=600&h=400",
-      technologies: ["JavaScript", "OpenWeather API", "Chart.js", "Leaflet"],
-      category: "frontend",
-      link: "https://weather-app.asifdev.com",
-      github: "https://github.com/asifdev/weather-app",
-      featured: false,
-    },
-    {
-      id: 5,
-      title: "Personal Finance Tracker",
-      description:
-        "An application to track personal expenses, income, and financial goals with visualization.",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400",
-      technologies: ["React", "Redux", "Express", "MongoDB", "D3.js"],
-      category: "fullstack",
-      link: "https://finance-tracker.asifdev.com",
-      github: "https://github.com/asifdev/finance-tracker",
-      featured: false,
-    },
+
     {
       id: 6,
       title: "Restaurant Website",

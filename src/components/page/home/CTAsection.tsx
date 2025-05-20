@@ -23,9 +23,12 @@ export function CTASection({ forwardedRef, isIntersecting }: CTASectionProps) {
           Let&apos;s Work Together
         </h2>
         <p className="text-muted-foreground mb-8">
-          I&apos;m currently available for freelance work and full-time
-          opportunities. If you have a project that needs some creative touch,
-          I&apos;d love to hear about it.
+          I’m currently looking for a full-time job opportunities in web
+          development. With strong skills in TypeScript, React, Node.js,
+          Express, Next.js, MongoDB, PostgreSQL, and more — I’m ready to join a
+          team where I can grow, contribute, and build amazing projects. If your
+          company is hiring or if you know of any opportunities, I’d really
+          appreciate it if you reached out. Let’s connect!
         </p>
         <Button asChild size="lg" className="rounded-full">
           <Link href="/contact">Get In Touch</Link>

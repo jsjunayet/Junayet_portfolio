@@ -69,41 +69,41 @@ export function Footer() {
               <li className="flex items-center gap-2">
                 <Mail size={16} className="text-primary" />
                 <a
-                  href="mailto:asif@example.com"
+                  href="mailto:junayetshiblu0@gmail.com"
                   className="text-muted-foreground hover:text-foreground"
                 >
-                  asif@example.com
+                  junayetshiblu0@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} className="text-primary" />
                 <a
-                  href="tel:+8801712345678"
+                  href="tel:+8801640011818"
                   className="text-muted-foreground hover:text-foreground"
                 >
-                  +880 1712 345678
+                  +880 1640 011818
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Github size={16} className="text-primary" />
                 <a
-                  href="https://github.com/asifdev"
+                  href="https://github.com/jsjunayet"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground"
                 >
-                  github.com/asifdev
+                  github.com/jsjunayet
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Linkedin size={16} className="text-primary" />
                 <a
-                  href="https://linkedin.com/in/asifdev"
+                  href="https://www.linkedin.com/in/jsjunayet"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground"
                 >
-                  linkedin.com/in/asifdev
+                  linkedin.com/in/jsjuanyet
                 </a>
               </li>
             </ul>
@@ -111,9 +111,11 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Asif Ahmed. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Junayet Shiblu. All rights reserved.
+          </p>
           <p className="mt-2">
-            Web Developer & UI/UX Designer based in Dhaka, Bangladesh
+            Full stack Web Developer based in Dhaka, Bangladesh
           </p>
         </div>
       </div>

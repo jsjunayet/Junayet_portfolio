@@ -178,8 +178,8 @@ const ContactPage = () => {
             <h3 className="text-xl font-bold mb-6">Contact Information</h3>
             <p className="text-muted-foreground mb-8">
               Feel free to reach out to me through any of the following methods.
-              I&apos;m available for freelance work, full-time positions, and
-              project collaborations.
+              I&apos;m available for Job, full-time positions, and project
+              collaborations.
             </p>
 
             <div className="space-y-6">
@@ -190,10 +190,10 @@ const ContactPage = () => {
                 <div>
                   <h4 className="font-medium">Email Address</h4>
                   <a
-                    href="mailto:asif@example.com"
+                    href="mailto:junayetshiblu0@gmail.com"
                     className="text-primary hover:underline"
                   >
-                    asif@example.com
+                    junayetshiblu0@gmail.com
                   </a>
                 </div>
               </div>
@@ -205,10 +205,10 @@ const ContactPage = () => {
                 <div>
                   <h4 className="font-medium">Phone Number</h4>
                   <a
-                    href="tel:+8801712345678"
+                    href="tel:+8801640011818"
                     className="text-primary hover:underline"
                   >
-                    +880 1712 345678
+                    +880 1640 011818
                   </a>
                 </div>
               </div>
@@ -220,12 +220,12 @@ const ContactPage = () => {
                 <div>
                   <h4 className="font-medium">LinkedIn</h4>
                   <a
-                    href="https://linkedin.com/in/asifdev"
+                    href="https://linkedin.com/in/jsjuanyet"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
                   >
-                    linkedin.com/in/asifdev
+                    linkedin.com/in/jsjuanyet
                   </a>
                 </div>
               </div>
@@ -237,12 +237,12 @@ const ContactPage = () => {
                 <div>
                   <h4 className="font-medium">GitHub</h4>
                   <a
-                    href="https://github.com/asifdev"
+                    href="https://github.com/jsjuanyet"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
                   >
-                    github.com/asifdev
+                    github.com/jsjuanyet
                   </a>
                 </div>
               </div>
@@ -250,7 +250,7 @@ const ContactPage = () => {
 
             <div className="mt-12">
               <h3 className="text-xl font-bold mb-4">Current Availability</h3>
-              <div className="text-muted-foreground  p-4 rounded-lg">
+              <div className="text-gray-500   rounded-lg">
                 <p className="font-medium">Available for Freelance Projects</p>
                 <p className="text-sm mt-1">
                   I&apos;m currently taking on new projects starting from June
@@ -263,21 +263,22 @@ const ContactPage = () => {
       </section>
 
       {/* Map Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-4 sm:pb-16 pb-8">
         <h3 className="text-xl font-bold mb-6">Location</h3>
         <div className="h-96 bg-muted rounded-xl overflow-hidden">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.8223908687!2d90.25446891259788!3d23.780863188152252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1620734414401!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.8104465909814!2d90.11476307586966!3d23.86633308497483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e9d385e93e33%3A0x1826c0caa8fbc5ed!2sNayarhat%2C%20Dhamrai%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1716100500000!5m2!1sen!2sbd"
             width="100%"
             height="100%"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            title="Location Map"
+            title="Nayarhat, Dhamrai, Dhaka"
           ></iframe>
         </div>
         <p className="text-center text-muted-foreground mt-4">
-          Based in Dhaka, Bangladesh. Available for remote work worldwide.
+          Based in <strong>Nayarhat, Dhamrai, Dhaka, Bangladesh</strong>.
+          Available for remote work worldwide.
         </p>
       </section>
     </>

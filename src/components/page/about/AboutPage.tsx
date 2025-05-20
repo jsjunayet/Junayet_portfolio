@@ -7,23 +7,23 @@ const AboutPage = () => {
   // Experience data
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "TechBD Solutions",
-      period: "2022 - Present",
+      title: "Frontend Developer",
+      company: " Clooud Gen",
+      period: "Aug 2024 - Dec 2024",
       description:
         "Leading the frontend development team in creating responsive web applications using React, Next.js, and TypeScript. Implementing modern UI/UX practices and optimizing performance.",
     },
     {
       title: "Frontend Developer",
       company: "Dhaka Innovation Hub",
-      period: "2019 - 2022",
+      period: "2022 - 2023",
       description:
         "Developed and maintained multiple client websites and web applications, focusing on responsive design and cross-browser compatibility using React, Vue.js, and Tailwind CSS.",
     },
     {
-      title: "UI/UX Designer & Developer",
+      title: "Frontend Developer",
       company: "CreativeMinds Agency",
-      period: "2017 - 2019",
+      period: "2021 - 2022",
       description:
         "Designed user interfaces and implemented frontend solutions for various clients, collaborating with multidisciplinary teams to deliver high-quality web products.",
     },
@@ -34,16 +34,16 @@ const AboutPage = () => {
     {
       degree: "Bachelor of Science in Computer Science",
       institution: "University of Dhaka",
-      period: "2014 - 2018",
+      period: "2022 - Present",
       description:
-        "Focused on web technologies, software engineering, and UI/UX design principles. Participated in multiple hackathons and coding competitions.",
+        " Focused on web technologies, software engineering, and Full Stack Web Development with AI principles. Participated in multiple hackathons and coding competitions.",
     },
     {
-      degree: "Web Development Certification",
-      institution: "Bangladesh IT Institute",
-      period: "2016",
+      degree: "Next Level Web Development",
+      institution: "Programming Hero",
+      period: "2024",
       description:
-        "Intensive program covering modern web development practices, responsive design, and JavaScript frameworks.",
+        " Trained in modern web development practices, responsive design, JavaScript frameworks (React, Nextjs), and backend technologies (Node.js, Express, SQL/NoSQL databases).",
     },
   ];
 
@@ -58,16 +58,20 @@ const AboutPage = () => {
                 About Me
               </h1>
               <p className="text-lg mb-4">
-                I&apos;m <strong>Asif Ahmed</strong>, a passionate Frontend
-                Developer and UI/UX Designer from Dhaka, Bangladesh with over 5
-                years of industry experience.
+                I&apos;m <strong>Junayet Shiblu</strong>,, a Full Stack Web
+                Developer based in Dhaka, Bangladesh, with 6 months of hands-on
+                experience building scalable, high-quality web applications.
               </p>
               <p className="text-muted-foreground mb-8">
-                My journey in web development started in 2017, and since then,
-                I&apos;ve been creating engaging digital experiences for clients
-                across various industries.
+                Since beginning my development journey in 2022, I&apos;ve worked
+                on real-world projects across diverse industries, focusing on
+                performance, clean code, and user-centric design. My core tech
+                stack includes React.js, Next.js, Node.js, MongoDB, TypeScript,
+                PostgreSQL, and Prisma. I&apos;m passionate about continuous
+                learning, problem-solving, and delivering impactful tech
+                solutions.
               </p>
-              <Button asChild variant="outline">
+              <Button asChild>
                 <a
                   href="/Asif_Ahmed_Resume.pdf"
                   download
@@ -83,7 +87,9 @@ const AboutPage = () => {
                 <ul className="space-y-4">
                   <li className="flex gap-2">
                     <span className="font-medium w-24">Name:</span>
-                    <span className="text-muted-foreground">Asif Ahmed</span>
+                    <span className="text-muted-foreground">
+                      Junayet Shiblu
+                    </span>
                   </li>
                   <li className="flex gap-2">
                     <span className="font-medium w-24">Location:</span>
@@ -92,12 +98,20 @@ const AboutPage = () => {
                     </span>
                   </li>
                   <li className="flex gap-2">
+                    <span className="font-medium w-24">Blood:</span>
+                    <span className="text-muted-foreground">O+</span>
+                  </li>
+                  <li className="flex gap-2">
+                    <span className="font-medium w-24">Gender:</span>
+                    <span className="text-muted-foreground">Mail</span>
+                  </li>
+                  <li className="flex gap-2">
                     <span className="font-medium w-24">Email:</span>
                     <a
-                      href="mailto:asif@example.com"
+                      href="mailto:junayetshiblu0@gmail.com"
                       className="text-primary hover:underline"
                     >
-                      asif@example.com
+                      junayetshiblu0@gmail.com
                     </a>
                   </li>
                   <li className="flex gap-2">
@@ -106,7 +120,7 @@ const AboutPage = () => {
                       href="tel:+8801712345678"
                       className="text-primary hover:underline"
                     >
-                      +880 1712 345678
+                      +880 1640 011818
                     </a>
                   </li>
                   <li className="flex gap-2">
