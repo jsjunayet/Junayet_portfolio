@@ -26,36 +26,63 @@ export function ProjectsSection({
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "StreedGrub",
       description:
-        "A full-featured online store with product catalog, cart functionality, and payment processing.",
-      image:
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&h=400",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-      link: "/projects/e-commerce",
-      github: "https://github.com/asifdev/ecommerce",
+        "A full-stack street food discovery platform with role-based access control, JWT authentication, premium content, real-time moderation, and payment integration via ShurjoPay.",
+      image: "https://i.ibb.co/gM1FgzCP/Screenshot-2025-06-22-093424.png",
+      technologies: [
+        "NextJS",
+        "TypeScript",
+        "ShadcnUI",
+        "Prisma",
+        "Node.js",
+        "PostgreSQL",
+        "Express.js",
+        "JWT",
+        "ShurjoPay",
+      ],
+      link: "https://streegrub.vercel.app/", // replace with actual link if available
+      github: "https://github.com/jsjunayet/street_food_frontend", // replace with actual link if available
     },
     {
       id: 2,
-      title: "Portfolio CMS",
+      title: "CartBazzars",
       description:
-        "A content management system for designers and developers to showcase their work easily.",
-      image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=600&h=400",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Sanity.io"],
-      link: "/projects/portfolio-cms",
-      github: "https://github.com/asifdev/portfolio-cms",
+        "A secure full-stack car shop application with smart filtering, JWT-based authentication, real-time product management, and a responsive UI integrated with SurjoPay.",
+      image: "https://i.ibb.co/84XkTmsm/Screenshot-2025-06-22-093331.png",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Redux",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "SurjoPay",
+      ],
+      link: "https://carwebsite-five.vercel.app/", // replace with actual link if available
+      github: "https://github.com/jsjunayet/car_website", // replace with actual link if available
     },
     {
       id: 3,
-      title: "Task Management App",
+      title: "Parcel Trade",
       description:
-        "A productivity application with task tracking, deadlines, and team collaboration features.",
-      image:
-        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=600&h=400",
-      technologies: ["Vue.js", "Firebase", "Vuetify", "PWA"],
-      link: "/projects/task-manager",
-      github: "https://github.com/asifdev/task-manager",
+        "A modern e-commerce platform featuring multi-category product browsing, cart management, manual payment processing, dynamic shipping charge calculator, and role-based interface. I was responsible for developing the full frontend UI and interactions.",
+      image: "https://i.ibb.co/Y4fQ7qL9/Screenshot-2025-06-22-094431.png", // Replace with real project image if you have one
+      technologies: [
+        "NextJS",
+        "Tailwind CSS",
+        "Redux",
+        "Formik",
+        "Zod",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+      ],
+      link: "https://parcel-trade.vercel.app/", // Replace with real URL if deployed
+      github: "https://github.com/jsjunayet/percel-trade", // Replace with your GitHub link
     },
   ];
 

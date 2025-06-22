@@ -15,7 +15,7 @@ const ResumePage = () => {
             education.
           </p>
           <Button asChild size="lg" className="gap-2">
-            <a href="/Asif_Ahmed_Resume.pdf" download>
+            <a href="/Junayet_Shiblu.pdf" download>
               <Download size={18} />
               Download PDF Resume
             </a>
@@ -231,7 +231,7 @@ const ResumePage = () => {
               <a href="/contact">Contact Me</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="gap-2">
-              <a href="/Asif_Ahmed_Resume.pdf" download>
+              <a href="/Junayet_Shiblu.pdf" download>
                 <Download size={18} />
                 Download Resume
               </a>

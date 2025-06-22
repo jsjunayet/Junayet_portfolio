@@ -14,18 +14,11 @@ const AboutPage = () => {
         "Leading the frontend development team in creating responsive web applications using React, Next.js, and TypeScript. Implementing modern UI/UX practices and optimizing performance.",
     },
     {
-      title: "Frontend Developer",
-      company: "Dhaka Innovation Hub",
-      period: "2022 - 2023",
+      title: "Web Development Segment Head",
+      company: "NITER Computer Club",
+      period: "May 2025 – Present",
       description:
-        "Developed and maintained multiple client websites and web applications, focusing on responsive design and cross-browser compatibility using React, Vue.js, and Tailwind CSS.",
-    },
-    {
-      title: "Frontend Developer",
-      company: "CreativeMinds Agency",
-      period: "2021 - 2022",
-      description:
-        "Designed user interfaces and implemented frontend solutions for various clients, collaborating with multidisciplinary teams to deliver high-quality web products.",
+        "Lead a student team in web project planning and execution. Coordinate tasks, mentor members, and represent the segment in club leadership.",
     },
   ];
 
@@ -33,7 +26,8 @@ const AboutPage = () => {
   const education = [
     {
       degree: "Bachelor of Science in Computer Science",
-      institution: "University of Dhaka",
+      institution:
+        "NITER - National Institute of Textile Engineering and Research",
       period: "2022 - Present",
       description:
         " Focused on web technologies, software engineering, and Full Stack Web Development with AI principles. Participated in multiple hackathons and coding competitions.",
@@ -73,7 +67,7 @@ const AboutPage = () => {
               </p>
               <Button asChild>
                 <a
-                  href="/Asif_Ahmed_Resume.pdf"
+                  href="/Junayet_Shiblu.pdf"
                   download
                   className="flex items-center"
                 >

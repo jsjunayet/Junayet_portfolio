@@ -12,44 +12,69 @@ const ProjectPage = () => {
   const projectsData = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "StreedGrub",
       description:
-        "A full-featured online store with product catalog, cart functionality, and payment processing.",
-      image:
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&h=400",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
+        "A full-stack street food discovery platform with role-based access control, JWT authentication, premium content, real-time moderation, and payment integration via ShurjoPay.",
+      image: "https://i.ibb.co/gM1FgzCP/Screenshot-2025-06-22-093424.png",
+      technologies: [
+        "NextJS",
+        "TypeScript",
+        "ShadcnUI",
+        "Prisma",
+        "Node.js",
+        "PostgreSQL",
+        "Express.js",
+        "JWT",
+        "ShurjoPay",
+      ],
       category: "fullstack",
-      link: "https://ecommerce-demo.asifdev.com",
-      github: "https://github.com/asifdev/ecommerce",
+      link: "https://streegrub.vercel.app/", // replace with actual link if available
+      github: "https://github.com/jsjunayet/street_food_frontend", // replace with actual link if available
       featured: true,
     },
-
+    {
+      id: 2,
+      title: "CartBazzars",
+      description:
+        "A secure full-stack car shop application with smart filtering, JWT-based authentication, real-time product management, and a responsive UI integrated with SurjoPay.",
+      image: "https://i.ibb.co/84XkTmsm/Screenshot-2025-06-22-093331.png",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Redux",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "SurjoPay",
+      ],
+      category: "fullstack",
+      link: "https://carwebsite-five.vercel.app/", // replace with actual link if available
+      github: "https://github.com/jsjunayet/car_website", // replace with actual link if available
+      featured: true,
+    },
     {
       id: 3,
-      title: "Task Management App",
+      title: "Parcel Trade",
       description:
-        "A productivity application with task tracking, deadlines, and team collaboration features.",
-      image:
-        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=600&h=400",
-      technologies: ["Vue.js", "Firebase", "Vuetify", "PWA"],
-      category: "fullstack",
-      link: "https://taskmaster.asifdev.com",
-      github: "https://github.com/asifdev/task-manager",
-      featured: true,
-    },
-
-    {
-      id: 6,
-      title: "Restaurant Website",
-      description:
-        "A modern website for a local restaurant with online menu and reservation system.",
-      image:
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&h=400",
-      technologies: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
+        "A modern e-commerce platform featuring multi-category product browsing, cart management, manual payment processing, dynamic shipping charge calculator, and role-based interface. I was responsible for developing the full frontend UI and interactions.",
+      image: "https://i.ibb.co/Y4fQ7qL9/Screenshot-2025-06-22-094431.png", // Replace with real project image if you have one
+      technologies: [
+        "NextJS",
+        "Tailwind CSS",
+        "Redux",
+        "Formik",
+        "Zod",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+      ],
       category: "frontend",
-      link: "https://restaurant-demo.asifdev.com",
-      github: "https://github.com/asifdev/restaurant-website",
-      featured: false,
+      link: "https://parcel-trade.vercel.app/", // Replace with real URL if deployed
+      github: "https://github.com/jsjunayet/percel-trade", // Replace with your GitHub link
+      featured: true,
     },
   ];
 
@@ -151,7 +176,7 @@ const ProjectPage = () => {
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-xl font-bold">{project.title}</h3>
                     {project.featured && (
-                      <span className="bg-accent/20 text-accent text-xs px-2 py-1 rounded-full">
+                      <span className="text text-accent text-xs px-2 py-1 rounded-full">
                         Featured
                       </span>
                     )}

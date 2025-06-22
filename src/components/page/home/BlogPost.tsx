@@ -51,7 +51,7 @@ const BlogPost = () => {
   return (
     <section
       className={cn(
-        "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center transition-all duration-700  "
+        "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24  transition-all duration-700  "
       )}
     >
       <div className="container px-4 md:px-6">
